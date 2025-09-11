@@ -17,7 +17,7 @@ export const Main = () => {
                 <h1 className="text-4xl font-semibold text-green-600">
                     Portifólio
                 </h1>
-                <h3 className="text-2xl font-light text-white">
+                <h3 className="text-2xl font-light">
                     Criando experiências
                 </h3>
             </div>

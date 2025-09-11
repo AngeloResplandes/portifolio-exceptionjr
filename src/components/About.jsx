@@ -11,7 +11,7 @@ export const About = () => {
                 objetivo de proporcionar experiência prática em
                 suas áreas de estudo.
             </p>
-            <p className="w-5/6 font-light text-justify mb-3">
+            <p className="w-5/6 font-light text-justify">
                 A Exception Júnior é a empresa júnior do curso de
                 Sistemas de Informação da UNIFESSPA. Esta empresa
                 atua no ramo de desenvolvimento de software, provendo
