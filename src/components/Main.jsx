@@ -2,7 +2,7 @@ import { Header } from "./Header"
 
 export const Main = () => {
     return (
-        <div className="w-full h-dvh flex flex-col items-center 
+        <div className="w-full h-screen flex flex-col items-center 
                         bg-gradient-to-b from-black via-[#0a0f1f]
                         to-black relative overflow-hidden">
 
