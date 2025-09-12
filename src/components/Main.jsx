@@ -1,8 +1,9 @@
-import { Header } from "./Header"
+import { Header } from "./Header";
+import { RxDoubleArrowDown } from "react-icons/rx";
 
 export const Main = () => {
     return (
-        <div className="w-full h-screen flex flex-col items-center 
+        <div className="w-full h-screen flex flex-col items-center justify-between
                         bg-gradient-to-b from-black via-[#0a0f1f]
                         to-black relative overflow-hidden">
 
@@ -13,7 +14,7 @@ export const Main = () => {
 
             <Header />
 
-            <div className="flex flex-col items-center mt-44 z-10">
+            <div className="flex flex-col items-center z-10">
                 <h1 className="text-4xl font-semibold text-green-600">
                     Portifólio
                 </h1>
@@ -21,6 +22,10 @@ export const Main = () => {
                     Criando experiências
                 </h3>
             </div>
+
+            <RxDoubleArrowDown
+                className="text-green-600 mb-5 hover:"
+                size={50} />
         </div>
     );
 }

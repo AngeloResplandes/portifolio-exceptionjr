@@ -3,7 +3,7 @@ import { WorkComponent } from "./WorkComponent";
 export const Works = () => {
     return (
         <div className="flex flex-col items-center">
-            <h1 className="text-3xl mt-10 font-medium">
+            <h1 className="text-3xl mt-10 font-medium md:my-16">
                 Trabalhos
             </h1>
             <WorkComponent
