@@ -3,7 +3,7 @@ import { RxDoubleArrowDown } from "react-icons/rx";
 
 export const Main = () => {
     return (
-        <div className="w-full h-screen flex flex-col items-center justify-between
+        <div className="w-full h-dvh flex flex-col items-center justify-between
                         bg-gradient-to-b from-black via-[#0a0f1f]
                         to-black relative overflow-hidden">
 
